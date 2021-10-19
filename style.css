@@ -1,0 +1,249 @@
+body {
+    background-image: url(	https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg
+    ), linear-gradient( 110deg, #f93d66, #6d47d9);;
+    margin: 50px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    height: 6.5vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+}
+
+.header {
+    font-family: 'BlinkMacSystemFont', 'Segoe UI', 'Roboto, Oxygen, Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #ffc600;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.header:hover {
+    cursor: pointer;
+}
+
+.navbar2 {
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 40px;
+}
+
+.fotonavbar1 {
+    font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(	https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/taco.jpg);
+    background-size: cover;
+    background-position: bottom right;
+    /* padding: 50px; */
+    height: 400px;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.fotonavbar1 h1 {
+    background: #ffc600;
+    padding: 5px;
+    color: #000;
+    font-size: 1.8rem;
+    margin-left: 50px;
+    margin-top: 150px;
+    display: inline-block;
+    
+}
+
+.fotonavbar1 p {
+    font-weight: 900;
+    background: #ffc600;
+    padding: 5px;
+    color: #000;
+    font-size: 0.8rem;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.fotonavbar2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ffc600;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    height: 190px;
+    font-weight: 200;
+}
+
+.fotonavbar2 p {
+    font-family: 'BlinkMacSystemFont', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 4rem;
+    margin-bottom: -25px;
+    margin-top: -5px;
+    
+}
+
+.fotonavbar3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ffc600;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    height: 190px;
+    font-weight: 200;
+}
+
+.fotonavbar3 p {
+    font-family: 'BlinkMacSystemFont', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 4rem;
+    margin-bottom: -25px;
+    margin-top: -5px;
+    
+}
+
+.navbar3 {
+    font-family: 'BlinkMacSystemFont', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.icon {
+    font-size: 50px;
+}
+
+.tacos1 {
+    margin-right: 20px;
+    background: #fff;
+}
+
+.tacos2 {
+    margin-right: 20px;
+    background: #fff;
+}
+
+.tacos3 {
+    margin-right: 20px;
+    background: #fff;
+}
+
+.tacos4 {
+    background: #fff;
+}
+
+.tacos1 p{
+    font-weight: 900;
+    padding: 3px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.tacos2 p{
+    font-weight: 900;
+    padding: 3px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.tacos3 p{
+    font-weight: 900;
+    padding: 3px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.tacos4 p{
+    font-weight: 900;
+    padding: 3px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar4 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    font-family: 'BlinkMacSystemFont', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    margin-top: 20px;
+    background: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 900;
+    color: #272727;
+    margin-bottom: 10px;
+}
+
+.fototacos2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.fototacos2 h2 {
+    margin-bottom: 6px;
+}
+
+.fototacos01 {
+    margin-bottom: -5px;
+}
+
+.fototacos01 img{
+    margin-right: -50px;
+}
+
+.fototacos2 a {
+    width: 100px;
+    display: inline-block;
+    padding: 10px;
+    background: #ffc600;
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+}
+
+.navbar5 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.color1 {
+    width: 43.4%;
+    background: linear-gradient( to right, #00000000, #ffc600 );
+    height: 10px;
+}
+
+.color2 {
+    font-family: 'BlinkMacSystemFont', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #272727;
+    display: flex;
+    padding: 10px 15px;
+}
+
+.color3 {
+    width: 43.5%;
+    background: linear-gradient( to right, #00000000, #ffc600 );
+    background: linear-gradient( to right, #ffc600,#00000000 );
+    height: 10px;
+}
+
+.navbar6 {
+    margin-top: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));;
+    grid-gap: 15px;
+}
+
+.footer1 img{
+    width: 232px;
+}
